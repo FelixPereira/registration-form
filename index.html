@@ -1,0 +1,132 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" lang="pt-PT">
+        <TITLe>A simple form</TITLe>
+
+        <style>
+            *{
+                padding: 0;
+            }
+
+            body{
+                background: linear-gradient(160deg, #E78F49, #463E38);
+                width: 900px;
+                margin: 0 auto;
+                padding: 50px;
+                font-family: Montserrat;
+            }
+
+            main{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+            }
+
+            .form{
+                background-color: #313131;
+                width: 100%;
+                padding: 6.1% 20px;
+            }
+
+            .button{
+                background-color: #F7984C;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 30px;
+                margin-top: 20px;
+                border: none;
+                font-family: Montserrat;
+            }
+
+            .field{
+                border: 0;
+                border-bottom: 1px solid rgba(204, 204, 204, 0.267);
+                outline: 0;
+                background-color: transparent;
+                margin-bottom: 20px;
+                color: #fff;
+                width: 100%;
+            }
+
+            .lable{
+                color: rgba(204, 204, 204, 0.411);
+                font-size: 14px;
+            }
+
+            ul{
+                list-style: none;
+                color: #fff;
+                font-size: 13px;
+            }
+
+            li:first-child{
+                color: #f7984c;
+                font-weight: 600;
+            }
+
+            li{
+                display: inline-block;
+                margin-right: 18px;
+            }
+
+            li:last-child{
+                margin-right: 0;
+            }
+
+            hr{
+                margin-bottom: 30px;
+            }
+
+            h1{
+                color: #fff;
+                font-size: 40px;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Fill the form to register</h1>
+            <section class="container">
+                <img width="50%" height="417px" src="img/succsess.jpg" alt="" srcset="">
+                <article class="form">
+                    <ul>
+                        <li>
+                            Sign up
+                        </li>
+                        <li>
+                            Sign in
+                        </li>
+                        <li>
+                            Forgot password
+                        </li>
+                    </ul>
+                    <hr>
+                    <form action="#" >
+                        <label class="lable" for="email">Email</label> <br>
+                        <input class="field" type="email" id="email"><br>
+    
+                        <labe class="lable"l for="username">Username</label><br>
+                        <input class="field" type="text" id="username"><br>
+    
+                        <label class="lable" for="pssword">Password</label><br>
+                        <input class="field" type="password" id="password"><br>
+    
+                        <input class="button" type="submit" value="Create account">
+                    </form>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
